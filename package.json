@@ -1,0 +1,25 @@
+{
+  "name": "proCoffee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd front && yarn && yarn build",
+    "start": "cd back && npm i && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriaiero42/proCoffee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriaiero42/proCoffee/issues"
+  },
+  "homepage": "https://github.com/victoriaiero42/proCoffee#readme",
+  "engines": {
+    "node": "14.x"
+  }
+}
+
