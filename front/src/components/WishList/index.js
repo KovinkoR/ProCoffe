@@ -7,7 +7,6 @@ import WishTitle from '../WishTitle';
 function CoffeeList() {
 
   const user = useSelector((state) => state.auth.id.wishlist);
-  console.log(user);
 
   return (
     <>

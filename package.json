@@ -20,6 +20,7 @@
   "homepage": "https://github.com/victoriaiero42/proCoffee#readme",
   "engines": {
     "node": "14.x"
+  },
+  "dependencies": {
   }
 }
-

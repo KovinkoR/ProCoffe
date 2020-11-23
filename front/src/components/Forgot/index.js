@@ -33,7 +33,6 @@ export default function Forgot() {
       }),
     });
     const response = await resp.json();
-    console.log(response);
     history.push('/signin');
   }
 

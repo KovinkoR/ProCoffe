@@ -90,5 +90,3 @@
 - [Игорь Ковинько](https://github.com/KovinkoR)
 - [Дмитрий Тюгаев](https://github.com/Dmitriy-mrx)
 - [Денис Мазилкин](https://github.com/magoshi)
-
-dsfdsfds

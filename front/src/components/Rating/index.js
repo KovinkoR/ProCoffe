@@ -33,7 +33,6 @@ function Raiting({ id }) {
       }),
     });
     const rate = await response.json();
-    console.log(rate);
     dispatch(setChangeStatus(rate));
   }
 

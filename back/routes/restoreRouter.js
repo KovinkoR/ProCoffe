@@ -18,9 +18,9 @@ router.post('/restoreApi', async (req, res) => {
   const restoreUser = await User.findOneAndUpdate(
     { email: targetText }, { $set: { password: hashedPassword } }, { new: true }, (err, doc) => {
       if (err) {
-        console.log('Не удалось обновить пароль пользователю', err);
+        console.error('Не удалось обновить пароль пользователю', err);
       }
-      console.log(doc, 'пароль пользователя успешно обновлен');
+      console.error(doc, 'пароль пользователя успешно обновлен');
     },
   );
   const mail = restoreUser.email;
@@ -42,8 +42,8 @@ router.post('/restoreApi', async (req, res) => {
     Хорошего дня, мистер любитель хорошего кофе!`,
   };
   transporter.sendMail(mailOptions, (err, info) => {
-    if (err) console.log(err);
-    else console.log(`email sent${info.response}`);
+    if (err) console.error(err);
+    else console.error(`email sent${info.response}`);
   });
 
   res.json({ he: 'back' });

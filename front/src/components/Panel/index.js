@@ -39,7 +39,6 @@ export default function Panel() {
     });
     const response = await request.json();
     const needCoffee = response.coffeeArr;
-    console.log(needCoffee);
     dispatch(searchCoffeeForUs(needCoffee));
   }
 
